@@ -30,4 +30,3 @@ pip show Django
 
 pip search Flask 
 - This searches the computer for files associated with flask, which is a web framework containing tools, libraries, and technologies that help when building an application.
-
