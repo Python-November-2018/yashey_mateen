@@ -26,12 +26,12 @@ bike2.ride().ride().reverse().reverse().displayInfo()
 bike3.reverse().reverse().reverse().displayInfo()
 
 ## What would you do to prevent the instance from having negative miles?
-    In the displayInfo method, you can have it print absolute value of self.miles by using abs() function as follows:
+# In the displayInfo method, you can have it print absolute value of self.miles by using abs() function as follows:
 
-    def displayInfo(self):
-        print(self.price, self.max_speed, abs(self.miles))
-        return self
+#   def displayInfo(self):
+#       print(self.price, self.max_speed, abs(self.miles))
+#       return self
 
 ## Which methods can return self in order to allow chaining methods?
-    displayInfo(), ride(), and reverse() can all return self and thus allow chaining methods
+#   displayInfo(), ride(), and reverse() can all return self and thus allow chaining methods
     
