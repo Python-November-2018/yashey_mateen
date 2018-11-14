@@ -112,3 +112,4 @@ def printDojoinfo(dojo):
   for key in dojo:
     for i in key:
       print(len(locations), locations[i])
+
