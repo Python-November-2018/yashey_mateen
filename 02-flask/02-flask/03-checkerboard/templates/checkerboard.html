@@ -23,15 +23,15 @@
 </head>
 <body>
     <table>
-    {% for i in range(x/2): %}
+    {% for i in range({{x}}/2): %}
         <tr>
-            {% for j in range(y/2): %}
+            {% for j in range({{y}}/2): %}
             <td class='color1'></td>
             <td class='color2'></td>
             {% endfor %}
         </tr>
         <tr>
-            {% for j in range(y/2): %}
+            {% for j in range({{y}}/2): %}
             <td class='color2'></td>
             <td class='color1'></td>
             {% endfor %}    
