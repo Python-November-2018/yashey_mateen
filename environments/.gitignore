@@ -2,3 +2,7 @@ environments/
 /environments
 \environments
 environments\
+/flaskEnv
+flaskEnv/
+\flaskEnv
+flaskEnv\
