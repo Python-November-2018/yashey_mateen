@@ -23,4 +23,8 @@ if __name__=="__main__":
     # run our server
     app.run(debug=True)
 
+# my_data = request.form['name_of_input']
+
+# Important! Always redirect after handling POST data to avoid data being handled more than once! 
+
 

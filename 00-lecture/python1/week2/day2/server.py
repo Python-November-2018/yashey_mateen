@@ -19,6 +19,7 @@ def process():
     return redirect('/success')
    ## return render_template('success.html', user=username)
 
+
 @app.route('/success')
 def success():
     return render_template('success.html')
@@ -26,5 +27,11 @@ def success():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
+
+
+
 
 
